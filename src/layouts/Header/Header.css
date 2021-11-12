@@ -1,0 +1,23 @@
+.header {
+  height: 20vh;
+  background-color: orange;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 11px;
+  z-index: 10000;
+}
+
+.header a {
+  display: block;
+  color: #545454;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: 0.2s;
+}
