@@ -1,4 +1,22 @@
-.contact {
+contact {
   height: 100vh;
-  background-color: pink;
+}
+.contactBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact iframe {
+  width: 750px;
+  height: 550px;
+}
+
+.contactDesc {
+  flex-grow: 1;
+  margin: 100px 50px 50px 50px;
+  font-size: 17px;
+}
+
+#contact h3 {
+  padding: 20px 0 20px 20px;
 }
