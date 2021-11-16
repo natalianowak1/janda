@@ -1,6 +1,6 @@
 .header {
   height: 20vh;
-  background-color: orange;
+  background-color: white;
   display: flex;
   align-content: center;
   justify-content: space-between;
@@ -20,4 +20,14 @@
   letter-spacing: 2px;
   text-decoration: none;
   transition: 0.2s;
+  font-size: 18px;
+}
+
+.header a:hover {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo {
+  width: 350px;
 }
