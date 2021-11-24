@@ -1,11 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faMapMarkerAlt,
-  faEnvelope,
-  faMobileAlt,
-} from "@fortawesome/free-solid-svg-icons";
+import { faFacebookSquare, faInstagramSquare, faTwitterSquare } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
   return (
@@ -24,22 +20,33 @@ const Contact = () => {
             tabindex="0"
           ></iframe>
         </div>
+        
         <div className="contactDesc">
-          <h2>Dane kontaktowe</h2>
+          <h2>Dane Konatktowe</h2>
           <br />
           <br />
           <br />
-          <FontAwesomeIcon icon={faMapMarkerAlt} /> Kancelaria Radcy Prawnego
-          <br />
-          ul. Piękna 43/15
-          <br />
-          40-641 Katowice
-          <br />
-          <br />
-          <FontAwesomeIcon icon={faEnvelope} /> kancelaria@home.pl
-          <br />
-          <br />
-          <FontAwesomeIcon icon={faMobileAlt} /> 790 444 127
+            Kancelaria Radcy Prawnego Agnieszka Janda
+            <br />
+            ul. Piękna 43/15
+            <br />
+            40-641 Katowice
+            <br />
+            <br />
+            e-mail: kancelaria@home.pl
+            <br />
+            <br />
+            kom. + 48 790 444 127
+            <br />
+            <br />
+            <br />
+            <br />
+            <div className="contactDescIcon">
+            <FontAwesomeIcon icon={faFacebookSquare} />
+            <FontAwesomeIcon icon={faTwitterSquare} letterSpacing="20px"/>
+            <FontAwesomeIcon icon={faInstagramSquare} letterSpacing="20px"/>
+            </div>
+
         </div>
       </div>
     </section>

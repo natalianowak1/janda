@@ -17,6 +17,13 @@ contact {
   font-size: 17px;
 }
 
+.contactDescIcon{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 200px;
+  font-size: 30px;
+}
+
 #contact h3 {
   padding: 20px 0 20px 20px;
 }
