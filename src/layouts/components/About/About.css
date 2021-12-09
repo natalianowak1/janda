@@ -1,4 +1,26 @@
-.about {
+#about{
   height: 100vh;
-  background-color: green;
+}
+
+.aboutBox{
+  display: flex;
+  justify-content: space-between;
+}
+
+#about h3{
+  padding: 20px 0 20px 20px;
+  display: block;
+}
+
+.aboutDesc{
+  flex-grow: 1;
+  margin: 50px;
+}
+
+#about img{
+  width: 400px;
+}
+
+.aboutDesc p{
+  text-align: justify;
 }
